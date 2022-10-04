@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Project6:jar">
+    <output-path>$PROJECT_DIR$/CLI (Command Line Interface Application)</output-path>
+    <root id="archive" name="Project6.jar">
+      <element id="module-output" name="Project6" />
+    </root>
+  </artifact>
+</component>

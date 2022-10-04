@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_332" class="java.beans.XMLDecoder">
+ <object class="bg.tu_varna.sit.DatabaseFileNames">
+  <void property="mainName">
+   <string>Cars</string>
+  </void>
+  <void property="tableFileName">
+   <object class="java.util.HashMap">
+    <void method="put">
+     <string>carshop</string>
+     <string>Cars_carshop.xml</string>
+    </void>
+    <void method="put">
+     <string>carrepair</string>
+     <string>Cars_carrepair.xml</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_332" class="java.beans.XMLDecoder">
+ <object class="bg.tu_varna.sit.Table">
+  <void property="columns">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <string>lg</string>
+        </void>
+        <void method="add">
+         <string>samsung</string>
+        </void>
+        <void method="add">
+         <string>philips</string>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>make</string>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" method="valueOf">
+        <class>bg.tu_varna.sit.ColumnType</class>
+        <string>STRING</string>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <double>22.0</double>
+        </void>
+        <void method="add">
+         <double>34.0</double>
+        </void>
+        <void method="add">
+         <double>333.0</double>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>price</string>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" method="valueOf">
+        <class>bg.tu_varna.sit.ColumnType</class>
+        <string>DOUBLE</string>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="name">
+   <string>tv</string>
+  </void>
+ </object>
+</java>

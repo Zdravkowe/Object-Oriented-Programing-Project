@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_301" class="java.beans.XMLDecoder">
+ <object class="bg.tu_varna.sit.Table">
+  <void property="columns">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <string>Ford</string>
+        </void>
+        <void method="add">
+         <string>Mercedes</string>
+        </void>
+        <void method="add">
+         <string>Mazeratti</string>
+        </void>
+        <void method="add">
+         <string>Lexus</string>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>car</string>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" method="valueOf">
+        <class>bg.tu_varna.sit.ColumnType</class>
+        <string>STRING</string>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <double>89000.0</double>
+        </void>
+        <void method="add">
+         <double>735000.0</double>
+        </void>
+        <void method="add">
+         <double>89000.0</double>
+        </void>
+        <void method="add">
+         <double>444000.0</double>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>price</string>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" method="valueOf">
+        <class>bg.tu_varna.sit.ColumnType</class>
+        <string>DOUBLE</string>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="name">
+   <string>showroom</string>
+  </void>
+ </object>
+</java>

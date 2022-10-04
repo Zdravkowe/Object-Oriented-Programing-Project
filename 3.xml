@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_332" class="java.beans.XMLDecoder">
+ <object class="bg.tu_varna.sit.DatabaseFileNames">
+  <void property="mainName">
+   <string>3</string>
+  </void>
+  <void property="tableFileName">
+   <object class="java.util.HashMap">
+    <void method="put">
+     <string>tv</string>
+     <string>3_tv.xml</string>
+    </void>
+    <void method="put">
+     <string>showroom</string>
+     <string>3_showroom.xml</string>
+    </void>
+    <void method="put">
+     <string>countries</string>
+     <string>3_countries.xml</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

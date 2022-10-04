@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_332" class="java.beans.XMLDecoder">
+ <object class="bg.tu_varna.sit.Table">
+  <void property="columns">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <string>AudiA7</string>
+        </void>
+        <void method="add">
+         <string>VWGolf</string>
+        </void>
+        <void method="add">
+         <string>Mercedes-Benz</string>
+        </void>
+        <void method="add">
+         <string>Opel</string>
+        </void>
+        <void method="add">
+         <string>AudiA6</string>
+        </void>
+        <void method="add">
+         <string>AudiA3</string>
+        </void>
+        <void method="add">
+         <string>HondaCivic</string>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>make</string>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" id="ColumnType0" method="valueOf">
+        <class>bg.tu_varna.sit.ColumnType</class>
+        <string>STRING</string>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <string>EngineFail</string>
+        </void>
+        <void method="add">
+         <string>Duzi</string>
+        </void>
+        <void method="add">
+         <string>A|C</string>
+        </void>
+        <void method="add">
+         <string>Rujda</string>
+        </void>
+        <void method="add">
+         <string>Obslujvane</string>
+        </void>
+        <void method="add">
+         <string>KormilnaReika</string>
+        </void>
+        <void method="add">
+         <string>SkorostnaKutiq</string>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>problem</string>
+      </void>
+      <void property="type">
+       <object idref="ColumnType0"/>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <double>800.0</double>
+        </void>
+        <void method="add">
+         <double>400.0</double>
+        </void>
+        <void method="add">
+         <double>900.0</double>
+        </void>
+        <void method="add">
+         <double>830.0</double>
+        </void>
+        <void method="add">
+         <double>350.0</double>
+        </void>
+        <void method="add">
+         <double>400.0</double>
+        </void>
+        <void method="add">
+         <double>700.0</double>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>price</string>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" id="ColumnType1" method="valueOf">
+        <class>bg.tu_varna.sit.ColumnType</class>
+        <string>DOUBLE</string>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <double>18.09</double>
+        </void>
+        <void method="add">
+         <double>22.11</double>
+        </void>
+        <void method="add">
+         <double>29.09</double>
+        </void>
+        <void method="add">
+         <double>11.12</double>
+        </void>
+        <void method="add">
+         <double>18.09</double>
+        </void>
+        <void method="add">
+         <double>30.09</double>
+        </void>
+        <void method="add">
+         <double>28.09</double>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>date</string>
+      </void>
+      <void property="type">
+       <object idref="ColumnType1"/>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="name">
+   <string>carrepair</string>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_332" class="java.beans.XMLDecoder">
+ <object class="bg.tu_varna.sit.Table">
+  <void property="columns">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <string>Audi</string>
+        </void>
+        <void method="add">
+         <string>Audi</string>
+        </void>
+        <void method="add">
+         <string>BMW</string>
+        </void>
+        <void method="add">
+         <string>BMW</string>
+        </void>
+        <void method="add">
+         <string>Mercedes</string>
+        </void>
+        <void method="add">
+         <string>Mercedes</string>
+        </void>
+        <void method="add">
+         <string>Honda</string>
+        </void>
+        <void method="add">
+         <string>Audi</string>
+        </void>
+        <void method="add">
+         <string>VW</string>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>Marka</string>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" id="ColumnType0" method="valueOf">
+        <class>bg.tu_varna.sit.ColumnType</class>
+        <string>STRING</string>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <string>A6</string>
+        </void>
+        <void method="add">
+         <string>A8</string>
+        </void>
+        <void method="add">
+         <string>M3</string>
+        </void>
+        <void method="add">
+         <string>M5</string>
+        </void>
+        <void method="add">
+         <string>S-class</string>
+        </void>
+        <void method="add">
+         <string>E-class</string>
+        </void>
+        <void method="add">
+         <string>Civic</string>
+        </void>
+        <void method="add">
+         <string>A4</string>
+        </void>
+        <void method="add">
+         <string>Golf</string>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>Model</string>
+      </void>
+      <void property="type">
+       <object idref="ColumnType0"/>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <string>3.0TDI</string>
+        </void>
+        <void method="add">
+         <string>4.0TDI</string>
+        </void>
+        <void method="add">
+         <string>4.8L</string>
+        </void>
+        <void method="add">
+         <string>5.2L</string>
+        </void>
+        <void method="add">
+         <string>4.2L</string>
+        </void>
+        <void method="add">
+         <string>3.0L</string>
+        </void>
+        <void method="add">
+         <string>1.4iS</string>
+        </void>
+        <void method="add">
+         <string>1.9TDI</string>
+        </void>
+        <void method="add">
+         <string>2.0TDI</string>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>Specifications</string>
+      </void>
+      <void property="type">
+       <object idref="ColumnType0"/>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <int>2010</int>
+        </void>
+        <void method="add">
+         <int>2006</int>
+        </void>
+        <void method="add">
+         <int>2016</int>
+        </void>
+        <void method="add">
+         <int>2018</int>
+        </void>
+        <void method="add">
+         <int>2012</int>
+        </void>
+        <void method="add">
+         <int>2014</int>
+        </void>
+        <void method="add">
+         <int>2002</int>
+        </void>
+        <void method="add">
+         <int>2001</int>
+        </void>
+        <void method="add">
+         <int>2003</int>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>Godina</string>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" id="ColumnType1" method="valueOf">
+        <class>bg.tu_varna.sit.ColumnType</class>
+        <string>INT</string>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="bg.tu_varna.sit.TableColumn">
+      <void property="data">
+       <object class="java.util.LinkedList">
+        <void method="add">
+         <int>20000</int>
+        </void>
+        <void method="add">
+         <int>15500</int>
+        </void>
+        <void method="add">
+         <int>59000</int>
+        </void>
+        <void method="add">
+         <int>110000</int>
+        </void>
+        <void method="add">
+         <int>45000</int>
+        </void>
+        <void method="add">
+         <int>50000</int>
+        </void>
+        <void method="add">
+         <int>3000</int>
+        </void>
+        <void method="add">
+         <int>8500</int>
+        </void>
+        <void method="add">
+         <int>6000</int>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>Cena</string>
+      </void>
+      <void property="type">
+       <object idref="ColumnType1"/>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="name">
+   <string>carshop</string>
+  </void>
+ </object>
+</java>
